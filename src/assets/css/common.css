@@ -1,0 +1,43 @@
+.logo-size-20 {
+    width: 20px; height: 20px;
+}
+.logo-size-32 {
+    width: 32px; height: 32px;
+}
+
+.space-left-5 {
+    margin-left: 5px;
+}
+.space-right-5 {
+    margin-right: 5px;
+}
+.space-top-5 {
+    margin-top: 5px;
+}
+.space-bottom-5 {
+    margin-bottom: 5px;
+}
+.space-left-10 {
+    margin-left: 10px;
+}
+.space-right-10 {
+    margin-right: 10px;
+}
+.space-top-10 {
+    margin-top: 10px;
+}
+.space-bottom-10 {
+    margin-bottom: 10px;
+}
+.space-left-20 {
+    margin-left: 20px;
+}
+.space-right-20 {
+    margin-right: 20px;
+}
+.space-top-20 {
+    margin-top: 20px;
+}
+.space-bottom-20 {
+    margin-bottom: 20px;
+}

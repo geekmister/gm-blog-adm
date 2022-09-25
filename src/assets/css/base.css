@@ -1,0 +1,274 @@
+/* logo */
+.logo-small {
+    width: 22px;
+    height: 22px;
+}
+
+.logo-middle {
+    width: 33px;
+    height: 33px;
+}
+
+.logo-large {
+    width: 44px;
+    height: 44px;
+}
+
+/* font 大小*/
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+/* font 颜色 */
+.font-color-white {
+    color: white;
+}
+
+.font-color-balck {
+    color: black;
+}
+
+.font-color-balck045 {
+    color: rgba(0, 0, 0, .45)
+}
+
+/* font 粗度 */
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+/* 间距 */
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.mar-left-40 {
+    margin-left: 40px;
+}
+
+.mar-right-40 {
+    margin-right: 40px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.mar-left-60 {
+    margin-left: 60px;
+}
+
+.mar-right-60 {
+    margin-right: 60px;
+}
+
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+
+/* 光标 */
+.mouse-pointer {
+    cursor: pointer;
+}
+
+/* layout 导航布局 */
+.page-guide-card-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+}
+
+.page-guide-card-div-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.page-guide-card-div-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* layout 搜索布局 */
+.page-search-card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: 10px;
+    background: #ffffff;
+}
+
+.page-search-card-row-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.page-search-card-btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.page-search-card-item {
+    width: 180px;
+}
+
+/* layout 内容表格布局 */
+.page-table-card-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #ffffff;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+/* 拉宽 select */
+.select-min-width-typeA {
+    min-width: 150px;
+}
+
+/* 表单缩略图 */
+.productFormThumbView {
+    width: 100px;
+    height: 100px;
+}
+
+.productTableThumbView {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    display: block;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+/* 商品表单轮播 */
+.productBanner{
+    width:100%;
+    flex-wrap: wrap;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.productBanner .bannerItem{
+    position: relative;
+    margin-right: 10px;
+}
+.productBanner .bannerTaker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border:1px dashed #c0c2c5;
+}
+.productBanner .bannerRemover{
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.colWithPadding{
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.colWithVerticalPadding{
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.buttonGapLeft{
+    margin-left: 5px;
+}
+.buttonGapRight{
+    margin-right: 5px;
+}
+.fakeFormContent{
+    margin:0 10px;
+}
