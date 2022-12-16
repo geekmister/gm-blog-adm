@@ -2,10 +2,8 @@
   文章管理首页
 </template>
 
-<script>
-export default {
-  name: "index"
-}
+<script setup lang="jsx">
+
 </script>
 
 <style scoped>
